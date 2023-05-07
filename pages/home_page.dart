@@ -387,7 +387,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 20),
             Center(
               child: Text(
-                "you have not joined any groups ",
+                "You haven't joined any groups.\nClick here to create your group.",
               ),
             ),
           ],

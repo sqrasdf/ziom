@@ -24,7 +24,7 @@ class _ProfilePageState extends State<ProfilePage> {
         backgroundColor: Theme.of(context).primaryColor,
         elevation: 0,
         title: const Text(
-          "profile",
+          "Profile",
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 27,

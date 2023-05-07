@@ -21,8 +21,8 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   bool _isLoading = false;
-  String email = "a@gmail.com";
-  String password = "polpol";
+  String email = "";
+  String password = "";
   final formKey = GlobalKey<FormState>();
   AuthService authService = AuthService();
   @override
@@ -45,6 +45,7 @@ class _LoginPageState extends State<LoginPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
+                        const SizedBox(height: 40),
                         const Text(
                           "Ziom",
                           style: TextStyle(
